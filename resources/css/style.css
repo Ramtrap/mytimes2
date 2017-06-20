@@ -45,3 +45,55 @@ header {
 .menu span a {
   color: black;
 }
+
+.main {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 60px auto;
+  padding-top: 30px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  flex: 0 1 auto;
+}
+
+.large .column {
+  width: 630px;
+}
+
+.medium .column {
+  width: 300px;
+}
+
+.small .column {
+  width: 240px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-content {
+
+}
+
+.image-content {
+  display: flex;
+}
+
+.small-photo {
+  display: flex;
+}
+
+.links {
+  display: block;
+}
+
+footer {
+  width: 1232px;
+  margin: 0 auto;
+}
